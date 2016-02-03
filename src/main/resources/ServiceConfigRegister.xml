@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configs>
+	<!-- 配置文件说明： 注册配置项：config： autoHotLoad：是否热加载，默认为ture。 scanInterval：热加载时扫描间隔，单位为毫秒，默认为60000毫秒。 
+		className：注册配置项所对应的java bean 全类名 （必填） xmlPath：注册配置项的xml 路径 （必填） listenerClassName：当配置文件改动是，通知到的监听类。其必须实现IConfigChangedListener接口。（可选配置） -->
+	
+	
+	<config xmlPath=""
+		autoHotLoad="true"
+		scanInterval="5000"
+		className=""
+		listenerClassName="" />
+	
+</configs>
